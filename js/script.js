@@ -2,26 +2,26 @@
 
 
 
-// function palindroma() {
-//     var array = prompt('scrivi una parola');
-//     var lettere = array.split('');
-//     console.log(lettere);
-//     const reversed =  lettere.reverse();
-//     console.log(reversed);
-//      var arrayContr = reversed.join('');
-//      console.log(arrayContr);
+ function palindroma() {
+     var array = prompt('scrivi una parola');
+     var lettere = array.split('');
+     console.log(lettere);
+     const reversed =  lettere.reverse();
+     console.log(reversed);
+      var arrayContr = reversed.join('');
+      console.log(arrayContr);
 
-//      if( array === arrayContr){
-//          var outcome = 'la parola è palindroma';
-//      }else{
-//          var outcome = 'la parola non è palindroma';
-//      }
+      if( array === arrayContr){
+          var outcome = 'la parola è palindroma';
+      }else{
+          var outcome = 'la parola non è palindroma';
+      }
 
-//      console.log(outcome);
-//     }
+      console.log(outcome);
+     }
     
     
-//     console.log(palindroma());
+     console.log(palindroma());
     
  
     // function prova() {
