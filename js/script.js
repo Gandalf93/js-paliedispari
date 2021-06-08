@@ -2,26 +2,26 @@
 
 
 
- function palindroma() {
-     var array = prompt('scrivi una parola');
-     var lettere = array.split('');
-     console.log(lettere);
-     const reversed =  lettere.reverse();
-     console.log(reversed);
-      var arrayContr = reversed.join('');
-      console.log(arrayContr);
+  function palindroma() {
+      var array = prompt('scrivi una parola');
+      var lettere = array.split('');
+      console.log(lettere);
+      const reversed =  lettere.reverse();
+      console.log(reversed);
+       var arrayContr = reversed.join('');
+       console.log(arrayContr);
 
-      if( array === arrayContr){
-          var outcome = 'la parola è palindroma';
-      }else{
-          var outcome = 'la parola non è palindroma';
+       if( array === arrayContr){
+           var outcome = 'la parola è palindroma';
+       }else{
+           var outcome = 'la parola non è palindroma';
+       }
+
+       console.log(outcome);
       }
-
-      console.log(outcome);
-     }
     
     
-     console.log(palindroma());
+      console.log(palindroma());
     
  
     // function prova() {
@@ -35,6 +35,7 @@
 
 
 var domanda = prompt('numero pari o numero dispari?');
+console.log(domanda);
 
 var num = parseInt(prompt('scrivi un numero da 1 a 5'));
 console.log('utente', num);
@@ -51,21 +52,28 @@ function randomNum(min, max) {
   }
 
 function somma(a, b) {
-    var risultato = a + b;
-    return risultato;
+    
+    return risultato = a + b;
      
 }
 
-    
+function parDis(sum) {
+    if (sum % 2 == 0){
+        return 'pari';
+    }else{
+        return 'dispari';
+    }
+}
+
+  var  evenUneven = parDis(risultatoSomma);
 
 
 
-// if(domanda == 'pari'){
-//     var vince = 'vince l\'utente';
-// }else if ( domanda == 'dispari' ){
-//      vince = 'vince l\'utente';
-// }else {
-//      vince = 'vince il pc';
-// }
+ if(domanda == evenUneven){
+     var vince = 'vince l\'utente';
+    }else {
+         vince = 'vince il pc';
+    }
 
-// console.log(vince);
+
+ console.log(vince);
